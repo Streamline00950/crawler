@@ -37,3 +37,11 @@ await fileWriter.writeToFile(url, filepath)
 | -------- | -------------------------------------------- |
 | url      | valid url that we are going to crawl         |
 | filepath | path with filename, place where we write txt |
+
+### Docker
+Optionally you can use attached dockerfile in order to run tests
+
+Build image using docker cli
+```
+docker build -t crawler ./
+```
